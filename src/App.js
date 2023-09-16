@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <div>
-      <p className="text-8xl font-bold">Hello there...</p>
+      <Navbar />
     </div>
   );
 }
