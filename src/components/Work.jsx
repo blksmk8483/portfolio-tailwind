@@ -125,9 +125,8 @@ const Work = () => {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-80 text-center px-2">
               <span className="text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
-                A JavaScript project using DOM-manipulation. Guess the number,
-                keep track of your high-score, and play as many times as you
-                want!
+                Guess the number, keep track of your high-score, and play as
+                many times as you want!
               </span>
               <div className="pt-8 text-center">
                 <a
