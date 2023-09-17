@@ -21,7 +21,8 @@ const About = () => {
               I pride myself in taking on challenges, solving them, and being
               creative in the process. As a graduate from the University of
               Texas Austin Full Stack Coding Bootcamp I have experience with
-              React, JavaScript, HTML, CSS, MongoDB, Bootstrap and more.
+              HTML, CSS, JavaScript, React, Node, MongoDB, GitHub, and Tailwind
+              CSS.
             </p>
           </div>
         </div>
