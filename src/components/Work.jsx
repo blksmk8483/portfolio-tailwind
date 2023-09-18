@@ -10,10 +10,10 @@ const Work = () => {
   return (
     <div
       name="work"
-      className=" w-full h-full md:h-screen text-gray-300 bg-violet-600"
+      className=" w-full h-full md:h-screen text-gray-300 bg-violet-600 "
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-6">
+        <div className="pb-8 mt-14 sm:mt-6 ">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-violet-800 ">
             Work
           </p>
