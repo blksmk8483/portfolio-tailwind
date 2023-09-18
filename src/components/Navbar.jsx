@@ -47,6 +47,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <Link to="social" spy={true} smooth={true} duration={500}>
+            Social
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -115,6 +120,17 @@ const Navbar = () => {
             duration={500}
           >
             Contact
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="social"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Social
           </Link>
         </li>
       </ul>
