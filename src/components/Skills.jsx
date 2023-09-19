@@ -10,9 +10,12 @@ import TailwindImg from "../assets/skills/tailwind.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-violet-600 text-gray-300 w-full h-screen">
+    <div className="bg-violet-600 text-gray-300 w-full h-screen">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div
+        name="skills"
+        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full"
+      >
         <div className="mt-18 sm:mt-6">
           <p className="text-4xl font-bold inline border-b-4 border-violet-800 mt-6">
             Skills
