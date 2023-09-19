@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-full bg-violet-600 flex justify-center items-center p-4"
+      className="w-full h-full bg-violet-600 flex justify-center items-center p-4 md:pt-20"
     >
       <form
         method="POST"
@@ -41,7 +41,7 @@ const Contact = () => {
           required
         />
         <button className="text-white border-2  hover:bg-violet-800 hover:border-violet-800 px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Collaborate
+          Submit
         </button>
       </form>
     </div>

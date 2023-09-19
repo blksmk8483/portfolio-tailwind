@@ -10,14 +10,14 @@ const Work = () => {
   return (
     <div
       name="work"
-      className=" w-full h-full md:h-screen text-gray-300 bg-violet-600 "
+      className=" w-full h-full md:h-screen text-gray-300 bg-violet-600 md:pt-4"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-18">
         <div className="pb-8 mt-14 sm:mt-6 ">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-violet-800 ">
             Work
           </p>
-          <p className="py-6">Check out some of my recent work!</p>
+          <p className="py-3">Check out some of my recent work!</p>
         </div>
 
         {/* Container */}
