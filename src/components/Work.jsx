@@ -12,7 +12,7 @@ const Work = () => {
       name="work"
       className=" w-full h-full md:h-screen text-gray-300 bg-violet-600 md:pt-4"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  mt-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  lg:mt-20">
         <div className="pb-8 mt-20 sm:mt-6 ">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-violet-800 ">
             Work
@@ -207,7 +207,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-lg px-4 pt-3 pb-0 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
