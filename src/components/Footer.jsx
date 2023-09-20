@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div
       name="footer"
-      className="bg-violet-600 text-gray-300 w-full h-auto lg:hidden flex justify-center items-center pt-6 pb-10"
+      className="bg-violet-600 text-gray-300 w-full h-auto lg:hidden flex justify-center items-center mt-0 pt-0 pb-10"
     >
       <div className="">
         <ul className="lg:hidden grid grid-cols-4 gap-8">
