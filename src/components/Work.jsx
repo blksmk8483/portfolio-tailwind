@@ -2,7 +2,7 @@ import React from "react";
 import Omnifood from "../assets/projects/Omnifood.gif";
 import ClashCharacters from "../assets/projects/ClashOfCharacters.png";
 import Garden2 from "../assets/projects/Garden2.gif";
-import GuessMyNumber from "../assets/projects/GuessMyNumber.png";
+import GuessMyNumber from "../assets/projects/GuessNumber.png";
 import EmployeeTracker from "../assets/projects/Employee-tracker.png";
 import ECommerce from "../assets/projects/E-Commerce-Site.png";
 
