@@ -95,9 +95,8 @@ const Work = () => {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-80 text-center px-2">
               <span className="text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
-                A family owned farm that began their journey growing lavender in
-                the summer of 2018. Order your favorite handmade soap, essential
-                oil, or other handmade product.
+                Fresh and Dried Lavender Bundles, Herbs, Hydrosols, Essential
+                Oils, Artisan Soaps, and more...
               </span>
               <div className="pt-8 text-center">
                 <a
