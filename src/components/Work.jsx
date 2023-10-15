@@ -2,7 +2,7 @@ import React from "react";
 import Omnifood from "../assets/projects/Omnifood.gif";
 import ClashCharacters from "../assets/projects/ClashOfCharacters.png";
 import Garden2 from "../assets/projects/Garden2.gif";
-import GuessMyNumber from "../assets/projects/GuessNumber.png";
+import LavenderCoveFarm from "../assets/projects/LavenderCoveFarm.gif";
 import EmployeeTracker from "../assets/projects/Employee-tracker.png";
 import ECommerce from "../assets/projects/E-Commerce-Site.png";
 
@@ -54,38 +54,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${ClashCharacters})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-80 text-center">
-              <span className="px-2 text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
-                Inspired by our love of video games, choose your character and
-                play against an AI generated character.
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://clash-of-characters.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/LilOTechGod/Clash-of-Characters"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             style={{ backgroundImage: `url(${Garden2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -118,19 +87,21 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
-            style={{ backgroundImage: `url(${GuessMyNumber})` }}
+            style={{ backgroundImage: `url(${LavenderCoveFarm})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-80 text-center px-2">
               <span className="text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
-                Guess the number, keep track of your high-score, and play as
-                many times as you want!
+                A family owned farm that began their journey growing lavender in
+                the summer of 2018. Order your favorite handmade soap, essential
+                oil, or other handmade product.
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://blksmk8483.github.io/Guess-Number/"
+                  href="https://www.lavendercovefarm.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -139,7 +110,39 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/blksmk8483/Guess-Number"
+                  href="https://www.lavendercovefarm.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${ClashCharacters})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-80 text-center">
+              <span className="px-2 text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
+                Inspired by our love of video games, choose your character and
+                play against an AI generated character.
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://clash-of-characters.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/LilOTechGod/Clash-of-Characters"
                   target="_blank"
                   rel="noreferrer"
                 >
