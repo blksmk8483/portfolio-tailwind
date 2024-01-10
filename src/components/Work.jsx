@@ -1,10 +1,10 @@
 import React from "react";
 import Omnifood from "../assets/projects/Omnifood.gif";
-import ClashCharacters from "../assets/projects/ClashOfCharacters.png";
 import Garden2 from "../assets/projects/Garden2.gif";
 import LavenderCoveFarm from "../assets/projects/LavenderCoveFarm.gif";
 import EmployeeTracker from "../assets/projects/Employee-tracker.png";
 import ECommerce from "../assets/projects/E-Commerce-Site.png";
+import Bankist from "../assets/projects/Bankist.gif";
 
 const Work = () => {
   return (
@@ -44,6 +44,38 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/blksmk8483/Omnifood"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Bankist})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-80 text-center px-2">
+              <span className=" text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
+                A banking homepage to work on my HTML, CSS, and JavaScript.
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://blksmk8483.github.io/Bankist-Page/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/blksmk8483/Bankist-Page"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -120,38 +152,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${ClashCharacters})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-80 text-center">
-              <span className="px-2 text-2xl md:text-base lg:text-base font-bold text-white tracking-wider">
-                Inspired by our love of video games, choose your character and
-                play against an AI generated character.
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://clash-of-characters.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/LilOTechGod/Clash-of-Characters"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             style={{ backgroundImage: `url(${EmployeeTracker})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
